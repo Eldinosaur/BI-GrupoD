@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="JOHAN_MD.SistemaTransaccionalOLTP"
+  DTS:DTSID="{5FFC46C7-B931-463E-8FC9-0B4FDBFCB039}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=JOHAN\MD;Initial Catalog=SistemaTransaccionalOLTP;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ProcesoETL-{5FFC46C7-B931-463E-8FC9-0B4FDBFCB039}JOHAN\MD.SistemaTransaccionalOLTP;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
